@@ -1,0 +1,437 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-size: 62%;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+}
+
+.container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 42px;
+  padding: 72px 0;
+}
+
+.container .header .headerLeft {
+  font-size: 2rem;
+}
+
+.container .header .headerLeft .headerLeft-logo {
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+.container .header .headerLeft .headerLeft-logo .logo-represent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+}
+
+.container .header .headerLeft .headerLeft-logo .logo-represent span {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 12px;
+}
+
+.container .header .headerLeft .headerLeft-logo .logo-represent .logo-name {
+  margin-left: 12px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.logo-name a {
+  text-transform: uppercase;
+  margin-left: 12px;
+  color: #000;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.headerRight ul li {
+  margin-left: 12px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  background-color: #f46464;
+  border-radius: 50%;
+}
+
+.headerRight ul li:hover {
+  background-color: black;
+}
+
+.headerRight ul li a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.skill-session {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 7px;
+  border-bottom: 4px solid #f26464;
+}
+
+.download-button {
+  text-align: center;
+}
+
+.download-button a {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #f46464;
+  border: 3px solid #f46464;
+  border-radius: 60px;
+  padding: 0 32px;
+  letter-spacing: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+
+.download-button a:hover {
+  background-color: #f46464;
+  color: white;
+}
+
+.content-personal .content-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 94px;
+  column-gap: 94px;
+}
+
+.content-img img {
+  width: 526px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.info {
+  width: 576px;
+}
+
+.info-text span {
+  font-size: 1.6rem;
+  line-height: 60px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.introduction h1 {
+  font-size: 4.8rem;
+  line-height: 60px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.info-experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.experience-fisrt {
+  padding: 0 30px;
+  font-size: 14px;
+}
+
+.experience-fisrt > h1 {
+  color: #f26464;
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.experience-fisrt p {
+  color: #373737;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.content-about {
+  margin-top: 60px;
+}
+
+.about-text p {
+  color: #373737;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 40px;
+  margin-bottom: 60px;
+}
+
+.about-skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.skill-importance {
+  flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  padding: 0 12px;
+}
+
+.about-skill,
+.skill-importance {
+  margin-bottom: 34px;
+  margin-top: 34px;
+}
+
+.skill-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-right: -15px;
+}
+
+.skill-items .item {
+  border: 1px solid #d7d7d7;
+  border-radius: 27px;
+  color: #373737;
+  line-height: 24px;
+  padding: 10px 20px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.about-workexperience .work-experience-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin: 0 -12px;
+}
+
+.about-workexperience .work-experience-inner .work-experience-inner__element {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  padding: 0 12px;
+}
+
+.about-workexperience .work-experience-inner .work-experience-inner__element .timeWork h4 {
+  color: #373737;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 21px;
+  padding-bottom: 10px;
+}
+
+.about-workexperience .work-experience-inner .work-experience-inner__element .name p {
+  color: #373737;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 28.8px;
+  margin-bottom: 10px;
+}
+
+.about-workexperience .work-experience-inner .work-experience-inner__element .description p {
+  color: #373737;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 27px;
+  padding-bottom: 30px;
+}
+
+.about-workexperience .work-experience-inner .work-experience-inner__element .introduce-yourself p {
+  color: #373737;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.list-WorkExperience {
+  padding-top: 10px;
+}
+
+.list-WorkExperience ul {
+  margin-left: 14px;
+}
+
+.list-WorkExperience ul li {
+  list-style: disc;
+  font-size: 1.6rem;
+  padding-left: 12px;
+}
+
+.list-WorkExperience ul li:not(:fisrt-child) {
+  padding-top: 20px;
+}
+
+.container .content-personal .latest-works-session .work-inner {
+  padding: 40px 70px 0 70px;
+  margin-bottom: 40px;
+  background-color: #f6f8fa;
+}
+
+.container .content-personal .latest-works-session .work-inner .lates-work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -12px;
+}
+
+.container .content-personal .latest-works-session .work-inner .lates-work .lates-work-item--left,
+.container .content-personal .latest-works-session .work-inner .lates-work .latest-work-item--right {
+  padding: 0 12px;
+}
+
+.container .content-personal .latest-works-session .work-inner .lates-work .lates-work-item--left {
+  -ms-flex-preferred-size: 58.33333333%;
+  flex-basis: 58.33333333%;
+  padding-top: 20px;
+}
+
+.container .content-personal .latest-works-session .work-inner .lates-work .lates-work-item--left h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+.container .content-personal .latest-works-session .work-inner .lates-work .lates-work-item--left p {
+  color: #373737;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.container .content-personal .latest-works-session .work-inner .lates-work .lates-work-item--left .download-button {
+  margin-top: 36px;
+  text-align: left;
+}
+
+.container .content-personal .latest-works-session .work-inner .lates-work .latest-work-item--right {
+  -ms-flex-preferred-size: 41.66666667%;
+  flex-basis: 41.66666667%;
+}
+
+.container .content-personal .latest-works-session .work-inner .lates-work .latest-work-item--right .item-right-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .content-personal .latest-works-session .work-inner .lates-work .latest-work-item--right .item-right-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.container .footer {
+  padding: 120px 0;
+  color: white;
+  text-align: center;
+  background-color: black;
+  max-width: 100%;
+  width: 100%;
+}
+
+.footer > span {
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.footer h3 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.footer > p {
+  letter-spacing: 1.2px;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.footer .license p {
+  padding-top: 97px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
