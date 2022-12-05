@@ -7,6 +7,13 @@
 html {
   font-size: 62%;
 }
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.fixed-header {
+}
+
 body {
   font-family: "Poppins";
 }
@@ -95,10 +102,6 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: white;
-}
-.container {
-  width: 1400px;
-  margin: 0 auto;
 }
 .header {
 }
@@ -407,13 +410,12 @@ a {
   -o-object-fit: cover;
   object-fit: cover;
 }
-.container .footer {
+.footer {
   padding: 120px 0;
   color: white;
   text-align: center;
   background-color: black;
   max-width: 100%;
-  width: 100%;
 }
 .footer > span {
   color: rgba(255, 255, 255, 0.5);
@@ -426,8 +428,8 @@ a {
 }
 .footer h3 {
   color: #fff;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: bolder;
   margin-bottom: 8px;
 }
 .footer > p {
